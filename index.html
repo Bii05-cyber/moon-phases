@@ -1,41 +1,40 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Moon Phase Widget</title>
   <style>
-    body {
+    html, body {
       margin: 0;
       padding: 0;
+      height: 100%;
+      background: transparent;
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
-      background: transparent;
     }
 
     a {
       text-decoration: none;
+      cursor: default; /* makes it look non-clickable */
     }
 
     img {
       max-width: 100%;
       height: auto;
       border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-
-    img:hover {
-      transform: scale(1.03);
-      box-shadow: 0 6px 14px rgba(0,0,0,0.4);
+      background: transparent;
+      box-shadow: none;
     }
   </style>
 </head>
 <body>
   <a target="_blank" href="https://moonphase.guide/">
-    <img src="https://moonphase.guide/module/MYThXL1RZSk5PNGtHV3I0bFNSTWQvd2IrY0gyWEtpTkpuOUtWRnkyTnNoNWxhTG9xSlRRbGxwUC9oTGYxS0ZOb0VUOHpnSjh6bko5b3VZN2pzKzJCckE9PQ.png" alt="Moon Phase Widget" />
+    <img
+      src="https://moonphase.guide/module/MYThXL1RZSk5PNGtHV3I0bFNSTWQvd2IrY0gyWEtpTkpuOUtWRnkyTnNoNWxhTG9xSlRRbGxwUC9oTGYxS0ZOb0VUOHpnSjh6bko5b3VZN2pzKzJCckE9PQ.png"
+      alt="Moon Phase Widget"
+    />
   </a>
 </body>
 </html>
